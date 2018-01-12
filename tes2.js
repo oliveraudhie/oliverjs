@@ -1,4 +1,5 @@
 let kondisiTubuh = prompt('Apakah anda capek? (y/t/?)')
+
 if (kondisiTubuh == 'y') {
   console.log('Break Time')
 } else

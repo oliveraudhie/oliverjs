@@ -16,8 +16,8 @@ if (kondisiTubuh === 'y' || kondisiTubuh === 'Y') {
   console.log('Anda Ragu?')
 }
 
-const celcius = prompt('berapa suhu celcius?')
-
+const tes = prompt('berapa suhu celcius?')
+const celcius = Number(tes)
 
 const kelvin = celcius + 273.15
 const fahrenheit = (celcius * 1.8) + 32
